@@ -180,6 +180,9 @@ input:checked + .slide:before {
 h2 {
   color: var(--DarkGrayishBlue);
 }
+.resumen {
+  display: grid;
+}
 .page {
   background-color: var(--fondo);
   padding: 30px;
@@ -222,4 +225,19 @@ h2 {
 }
 .down {
   color: var(--Bright-Red);
+}
+
+@media (min-width: 786px) {
+  .redes {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .red {
+    flex: 0 0 calc(25% - 1rem);
+  }
+  .resumen {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+  }
 }
