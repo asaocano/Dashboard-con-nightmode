@@ -117,17 +117,17 @@ input:checked + .slide:before {
   flex-direction: column;
 }
 #facebook {
-  border-top: 10px solid var(--Facebook);
+  border-top: 10px solid var(--Facebook)!important;
 }
 #twitter {
-  border-top: 10px solid var(--Twitter);
+  border-top: 10px solid var(--Twitter)!important;
 }
 #instagram {
-  border-top: 10px solid #df4996;
+  border-top: 10px solid #df4996!important;
 }
 
 #youtube {
-  border-top: 10px solid var(--YouTube);
+  border-top: 10px solid var(--YouTube)!important;
 }
 
 .red {
